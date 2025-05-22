@@ -131,6 +131,8 @@ builder.Services.AddTransient<LoginViewModel>();
 
 ### 🔗 Conexão entre os componentes
 
+[Controls](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/?view=net-maui-9.0)
+
 - Cada `ContentPage` tem uma `ViewModel` associada.
 - O binding é feito via `BindingContext`, geralmente no code-behind ou por DI.
 - As `Views` se comunicam com a lógica através de `Bindings` no XAML.
@@ -242,7 +244,3 @@ Esses mecanismos permitem controle mais refinado da experiência de navegação 
 - Use `ContentView` para modularizar a interface e evitar duplicação.
 - Organize as pastas de forma clara para facilitar manutenção.
 - A arquitetura MVVM proporciona separação de responsabilidades e facilita testes.
-
----
-
-Próximos tópicos relacionados: [Navegação entre páginas](04_navegacao_paginas.md) | [Injeção de Dependência](08_injecao_dependencia_servicos.md)
