@@ -132,7 +132,3 @@ EmailEntry.Text = "teste@exemplo.com";
 - Use estilos e recursos compartilhados para consistência visual.
 - Mantenha a View o mais "burra" possível — sem lógica.
 - Crie `ContentViews` para seções reutilizáveis e mantenha o XAML modular.
-
----
-
-Próximos tópicos relacionados: [Arquitetura MVVM](02_arquitetura_mvvm.md) | [Navegação e Ciclo de Vida](01_estrutura_geral.md)
